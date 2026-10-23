@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enmish Call</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="app-icon-180.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#092A42">
+<meta name="apple-mobile-web-app-title" content="Enmish Call">
+<style>
+  html,body{height:100%;margin:0}
+  body{display:grid;place-items:center;background:#F7FCFE;color:#0F3B54;font:14px/1.7 -apple-system,"Hiragino Sans",sans-serif;text-align:center;padding:24px;box-sizing:border-box}
+  a{color:#092A42;font-weight:700}
+  img{display:block;margin:0 auto 12px}
+</style>
+</head>
+<body>
+<div>
+  <img src="app-icon-192.png" width="72" height="72" alt="">
+  <b style="color:#092A42;font-size:16px">Enmish Call</b><br>
+  架電シートを開いています…<br>
+  <small>開かないときは <a href="https://script.google.com/a/macros/enmish.co.jp/s/AKfycbyqdYhvspd3gMpquxmMPGT69YjVl9OTg3Y72_sFbk1LYVzGe_e7NcI4rFswfyQtLiNk5w/exec">こちら</a>（エンミッシュの Google アカウントで開きます）</small>
+</div>
+<script>
+  // ホーム画面・ブックマーク用の入口。アイコンはこのページのもの、開いたらアプリ（Apps Script の Web アプリ）へ移る
+  setTimeout(function(){ location.replace("https://script.google.com/a/macros/enmish.co.jp/s/AKfycbyqdYhvspd3gMpquxmMPGT69YjVl9OTg3Y72_sFbk1LYVzGe_e7NcI4rFswfyQtLiNk5w/exec"); }, 300);
+</script>
+</body>
+</html>

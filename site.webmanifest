@@ -1,0 +1,14 @@
+{
+  "name": "Enmish Call",
+  "short_name": "Enmish Call",
+  "description": "スプレッドシートで架電する Enmish Call",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#092A42",
+  "theme_color": "#092A42",
+  "icons": [
+    { "src": "app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
